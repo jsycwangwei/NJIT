@@ -814,15 +814,15 @@ if($("#no").val() == "" || $("#no").val() == "手机号码")
 							</p>
 
 							<p class="input-block">
-								<input type="text" name="no" id="no" placeholder="产品编号" />
+								<input type="text" name="no" id="no" placeholder="技术领域（研发、测试、产品..）"/>
 							</p>
 							
 							<p class="input-block">
-								<input type="text" name="num" id="num" placeholder="订购数量" />
+								<input type="text" name="num" id="num" placeholder="分享主题"/>
 							</p>
 
 							<p class="input-block">
-								<textarea name="dz" id="dz" placeholder="收货地址"></textarea>	
+								<textarea name="dz" id="dz" placeholder="期望交流对象"></textarea>
 							</p>
 							
 
