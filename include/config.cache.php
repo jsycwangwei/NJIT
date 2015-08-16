@@ -1,13 +1,13 @@
 <?php	if(!defined('IN_PHPMYWIND')) exit('Request Error!');
 
-$cfg_webname = '我的网站';
+$cfg_webname = '南京互联网技术社区';
 $cfg_weburl = 'http://localhost';
 $cfg_webpath = '/php-5';
 $cfg_author = '';
 $cfg_generator = 'NJITGROUP';
 $cfg_seotitle = '';
 $cfg_keyword = '';
-$cfg_description = '';
+$cfg_description = '南京本土的互联网技术社区，开放、交流、分享';
 $cfg_copyright = 'Copyright © 2010 - 2014 NJITGROUP.cn All Rights Reserved';
 $cfg_hotline = '13851904405';
 $cfg_icp = '';

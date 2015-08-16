@@ -365,7 +365,13 @@ if($("#no").val() == "" || $("#no").val() == "手机号码")
     }
     
     //标注点数组
-    var markerArr = [{title:"深圳一号设计",content:"我的备注",point:"113.962082|22.587709",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+	var markerArr = [{
+		title: "南京互联网技术社区",
+		content: "我的备注",
+		point: "113.962082|22.587709",
+		isOpen: 0,
+		icon: {w: 21, h: 21, l: 0, t: 0, x: 6, lb: 5}
+	}
 		 ];
     //创建marker
     function addMarker(){
@@ -466,7 +472,7 @@ if($("#no").val() == "" || $("#no").val() == "手机号码")
 					<div class="col-sm-3 col-sm-offset-3">
 						
 						<div class="developed">
-							Developed by <a target="_blank" href="#">一号设计</a>
+							Developed by <a target="_blank" href="#">南京互联网技术社区</a>
 						</div><!--/ .developed-->
 						
 					</div>

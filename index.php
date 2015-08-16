@@ -89,7 +89,7 @@ if(isset($action) and $action=='add')
 				<li><a href="#folio">活动展示</a></li>
 				<li><a href="#team">我们团队</a></li>
 				<li><a href="#blog">近期活动</a></li>
-				<li><a href="#pricing">官方热卖</a></li>
+				<li><a href="#pricing">热门讲师</a></li>
 				<li><a href="#contacts">加入我们</a></li>
 			</ul>
 
@@ -588,9 +588,9 @@ if(isset($action) and $action=='add')
 					
 					<div class="col-xs-12">
 						<hgroup class="section-title align-center opacity">
-							<h1>XXXX</h1>
+							<h1>热门讲师</h1>
 
-							<h2>YYYYYYYYYYYY</h2>
+							<h2>多与他们交流吧</h2>
 						</hgroup>						
 					</div>
 					
@@ -605,7 +605,7 @@ if(isset($action) and $action=='add')
 							<div class="column opacity">
 
 								<header class="header">
-									<h5 class="title">1111</h5>
+									<h5 class="title">张三</h5>
 								</header><!-- .header -->
 
 								<div class="price">
@@ -630,7 +630,7 @@ if(isset($action) and $action=='add')
 							<div class="column opacity">
 
 										<header class="header">
-									<h5 class="title">wwwwww</h5>
+											<h5 class="title">李四</h5>
 								</header><!-- .header -->
 
 								<div class="price">
