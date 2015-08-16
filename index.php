@@ -761,27 +761,27 @@ if(telReg == false){
         $("#tel").focus();
         return false;
 }
-if($("#no").val() == "" || $("#no").val() == "手机号码")
+	if ($("#no").val() == "" || $("#no").val() == "技术领域（研发、测试、产品..）")
         {
-        alert("请填写您需要订购的产品编号！");
+			alert("请填写您的技术领域（研发、测试、产品..）！");
         $("#no").focus();
         return false;
     }
-	if($("#num").val() == "" || $("#num").val() == "订货数量")
+	if ($("#num").val() == "" || $("#num").val() == "分享主题")
         {
-        alert("请填写需要订购的产品数量！");
+			alert("请填写您的分享主题！");
         $("#num").focus();
         return false;
     }
-	 if(isNaN($("#num").val()))
-      {
-         alert("订货数量必须输入数字！");
-          $("#num").focus();
-        return false;
-      }
-	  if($("#dz").val() == "" || $("#dz").val() == "收货地址(必填)")
+//	 if(isNaN($("#num").val()))
+//      {
+//         alert("须输入数字！");
+//          $("#num").focus();
+//        return false;
+//      }
+	if ($("#dz").val() == "" || $("#dz").val() == "期望交流对象")
         {
-        alert("请填写您的收货地址！");
+			alert("请填写您期望交流对象！");
         $("#dz").focus();
         return false;
     }
@@ -872,7 +872,7 @@ if($("#no").val() == "" || $("#no").val() == "手机号码")
     //创建地图函数：
     function createMap(){
         var map = new BMap.Map("dituContent");//在百度地图容器中创建一个地图
-        var point = new BMap.Point(113.95919,22.585857);//定义一个中心点坐标
+		var point = new BMap.Point(118.802891, 32.064735);//定义一个中心点坐标
         map.centerAndZoom(point,17);//设定地图的中心点和坐标并将地图显示在地图容器中
         window.map = map;//将map变量存储在全局
     }
@@ -899,7 +899,13 @@ if($("#no").val() == "" || $("#no").val() == "手机号码")
     }
     
     //标注点数组
-    var markerArr = [{title:"设计",content:"我的备注",point:"113.962082|22.587709",isOpen:0,icon:{w:21,h:21,l:0,t:0,x:6,lb:5}}
+	var markerArr = [{
+		title: "设计",
+		content: "我的备注",
+		point: "118.802891|32.064735",
+		isOpen: 0,
+		icon: {w: 21, h: 21, l: 0, t: 0, x: 6, lb: 5}
+	}
 		 ];
     //创建marker
     function addMarker(){
