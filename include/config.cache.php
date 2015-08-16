@@ -1,14 +1,14 @@
 <?php	if(!defined('IN_PHPMYWIND')) exit('Request Error!');
 
-$cfg_webname = '南京互联网技术社区';
-$cfg_weburl = 'http://localhost:63342';
+$cfg_webname = '我的网站';
+$cfg_weburl = 'http://localhost';
 $cfg_webpath = '/php-5';
 $cfg_author = '';
-$cfg_generator = 'NJIT';
+$cfg_generator = 'NJITGROUP';
 $cfg_seotitle = '';
 $cfg_keyword = '';
 $cfg_description = '';
-$cfg_copyright = 'Copyright © 2010 - 2014 NJITGROUP.CN All Rights Reserved';
+$cfg_copyright = 'Copyright © 2010 - 2014 NJITGROUP.cn All Rights Reserved';
 $cfg_hotline = '13851904405';
 $cfg_icp = '';
 $cfg_webswitch = 'Y';
@@ -50,7 +50,7 @@ $cfg_reurl_goods = '{goods}-{cid}-{tid}-{page}.html';
 $cfg_reurl_goodsshow = '{goodsshow}-{cid}-{tid}-{id}-{page}.html';
 $cfg_reurl_vote = '{vote}-{id}.html';
 $cfg_reurl_custom = '{file}.html';
-$cfg_auth_key = 'JfOQkVNsIpNai2lL';
+$cfg_auth_key = 'RzoiEKSg5u5bEv6W';
 $cfg_alipay_uname = '';
 $cfg_alipay_partner = '';
 $cfg_alipay_key = '';

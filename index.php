@@ -88,9 +88,9 @@ if(isset($action) and $action=='add')
 				<li><a href="#about">关于我们</a></li>
 				<li><a href="#folio">活动展示</a></li>
 				<li><a href="#team">我们团队</a></li>
-				<li><a href="#blog">最新资讯</a></li>
+				<li><a href="#blog">近期活动</a></li>
 				<li><a href="#pricing">官方热卖</a></li>
-				<li><a href="#contacts">在线订购</a></li>
+				<li><a href="#contacts">加入我们</a></li>
 			</ul>
 
 		</nav><!--/ #navigation-->
@@ -121,11 +121,11 @@ if(isset($action) and $action=='add')
 						<img alt="" class="ls-bg" src="img/bg-1.jpg">
 						
 						<h2 class="ls-s2 align-center" style="top: 43%; left: 130px; slidedirection : top; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint; font-size:4.0em; color:#FFFFFF;">
-							南京互联网技术社区 最新
+							南京互联网技术社区
 						</h2>
 						
 						<h2 class="ls-s2 align-center" style="top: 57%; left: 380px; slidedirection : bottom; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;font-size:4.0em; color:#FFFFFF;">
-							html5响应式
+							期待你的加入
 						</h2>
 						
 					</div><!--/ .ls-layer-->
@@ -135,11 +135,11 @@ if(isset($action) and $action=='add')
 					<img alt="" class="ls-bg" src="img/bg-2.jpg">
 						
 						<h2 class="ls-s2 align-center" style="top: 43%; left: 180px; slidedirection : top; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;font-size:4.0em; color:#FFFFFF;">
-							xxxxxxx
+							交流
 						</h2>
 						
 						<h2 class="ls-s2 align-center" style="top: 57%; left: 260px; slidedirection : bottom; slideoutdirection : fade; scaleout : 0.75; durationin : 2000; durationout : 1000; easingin : easeInOutQuint; easingout : easeInOutQuint;font-size:4.0em; color:#FFFFFF;">
-							eeeeee
+							分享
 						</h2>
 						
 					</div><!--/ .ls-layer-->
@@ -199,10 +199,10 @@ if(isset($action) and $action=='add')
 
 						<ul class="list circle-list opacity">
 
-							<li>响应式网站</li>
-							<li>商城网站</li>
-							<li>微信网站</li>
-							<li>网站搭建</li>
+							<li>互联网前端技术</li>
+							<li>大数据&云计算</li>
+							<li>最新测试技术</li>
+							<li>前沿产品设计</li>
 
 						</ul><!--/ .list-->
 
@@ -238,7 +238,7 @@ if(isset($action) and $action=='add')
 					<div class="col-xs-12">
 						<ul id="portfolio-filter" class="portfolio-filter opacity">
 							<li class="filter active" data-filter="all">所有</li>
-							<?php echo GetNav1(1);?>
+							<?php echo GetNav1(1); ?>
 						</ul><!--/ #portfolio-filter -->		
 					</div>
 					
@@ -250,7 +250,8 @@ if(isset($action) and $action=='add')
  <?php
 
 			$sql = "SELECT * FROM `#@__infoimg` WHERE (classid=1 OR parentstr LIKE '%,1,%') AND delstate='' AND checkinfo=true ORDER BY orderid DESC";
-		    $dopage->GetPage($sql);
+
+ $dopage->GetPage($sql);
 				while($row = $dosql->GetArray())
 				{
 			if($row['linkurl']=='' and $cfg_isreurl!='Y') $gourl = 'show.php?cid='.$row['classid'].'&id='.$row['id'];
@@ -292,7 +293,8 @@ if(isset($action) and $action=='add')
 					<div class="col-xs-12">
 						<hgroup class="section-title align-center opacity">
 							<h1>我们的团队</h1>
-							<h2>因为我们有支出色的团队，所以我们能够成功</h2>	
+
+							<h2>您的参与，才是我们的价值</h2>
 						</hgroup>			
 					</div>
 					
@@ -586,8 +588,9 @@ if(isset($action) and $action=='add')
 					
 					<div class="col-xs-12">
 						<hgroup class="section-title align-center opacity">
-							<h1>产品热卖</h1>
-							<h2>如果您对我们产品感兴趣，请直接进入淘宝官方店铺购买</h2>	
+							<h1>XXXX</h1>
+
+							<h2>YYYYYYYYYYYY</h2>
 						</hgroup>						
 					</div>
 					
@@ -602,19 +605,19 @@ if(isset($action) and $action=='add')
 							<div class="column opacity">
 
 								<header class="header">
-									<h5 class="title">淘宝源码</h5>
+									<h5 class="title">1111</h5>
 								</header><!-- .header -->
 
 								<div class="price">
 									<h2 class="cost">￥15</h2>
-									<span class="description">原创作品</span>				
+									<span class="description">2222</span>
 								</div><!--/ .price-->
 
 								<ul class="features">
-									<li>手机自适应</li>
-									<li>html5响应式</li>
-									<li>利于seo优化</li>
-									<li>简单实用后台</li>
+									<li>EREQER</li>
+									<li>REQREQ</li>
+									<li>33DDE</li>
+									<li>DEQDQE</li>
 									<li>999999</li>
 								</ul><!-- .features -->
 
@@ -636,11 +639,11 @@ if(isset($action) and $action=='add')
 								</div><!--/ .price-->
 
 								<ul class="features">
-									<li>手机自适应</li>
-									<li>html5响应式</li>
-									<li>利于seo优化</li>
-									<li>简单实用后台</li>
-									<li>erwere</li>
+									<li>RRRRRR</li>
+									<li>TTTTT</li>
+									<li>YYYYYY</li>
+									<li>UUUUUU</li>
+									<li>HHHHHH</li>
 								</ul><!-- .features -->
 
 								<footer class="footer">
@@ -657,14 +660,14 @@ if(isset($action) and $action=='add')
 
 								<div class="price">
 									<h2 class="cost">￥15</h2>
-									<span class="description">原创作品</span>				
+									<span class="description">HHHHH</span>
 								</div><!--/ .price-->
 
 								<ul class="features">
-									<li>手机自适应</li>
-									<li>html5响应式</li>
-									<li>利于seo优化</li>
-									<li>简单实用后台</li>
+									<li>HGGGG</li>
+									<li>BBBBB</li>
+									<li>CCCCC</li>
+									<li>VVVVVV</li>
 									<li>fdafda</li>
 								</ul><!-- .features -->
 
@@ -681,14 +684,14 @@ if(isset($action) and $action=='add')
 
 								<div class="price">
 									<h2 class="cost">￥15</h2>
-									<span class="description">原创作品</span>				
+									<span class="description">TRTRTRTR</span>
 								</div><!--/ .price-->
 
 								<ul class="features">
-									<li>手机自适应</li>
-									<li>html5响应式</li>
-									<li>利于seo优化</li>
-									<li>简单实用后台</li>
+									<li>TRTRTRT</li>
+									<li>TRTRTRTR</li>
+									<li>RTRTRTR</li>
+									<li>YYBBB</li>
 									<li>fdafafd</li>
 								</ul><!-- .features -->
 
@@ -720,8 +723,9 @@ if(isset($action) and $action=='add')
 					
 					<div class="col-xs-12">
 						<hgroup class="section-title align-center opacity">
-							<h1>在线订购</h1>
-							<h2>如果您对我们产品有兴趣，请提交订单申请或者在线咨询我们</h2>	
+							<h1>加入我们</h1>
+
+							<h2>不管你是技术达人还是技术爱好者，欢迎加入我们</h2>
 						</hgroup>		
 					</div>
 					

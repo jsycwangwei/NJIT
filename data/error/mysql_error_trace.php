@@ -650,3 +650,4 @@
 <?php exit(); ?> Time: 2015-07-27 21:34:19. || Page: /case/php-3/show.php || IP: 110.75.105.43 || Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 Error sql: SELECT * FROM `pmw_infoimg` WHERE id=
 <?php exit(); ?> Time: 2015-08-15 22:53:56. || Page: /php-5/index.php || IP: 127.0.0.1 || Error: 连接数据库失败，可能数据库密码不对或数据库服务器出错！
 <?php exit(); ?> Time: 2015-08-16 00:05:18. || Page: /php-5/show.php || IP: 127.0.0.1 || Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 Error sql: SELECT * FROM `NJIT_infoimg` WHERE id=
+<?php exit(); ?>Time: 2015-08-16 11:04:37. || Page: /php-5/ || IP: 0.0.0.0 || Error: 无法使用数据库！
