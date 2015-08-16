@@ -311,7 +311,8 @@ if($("#no").val() == "" || $("#no").val() == "手机号码")
 								<li>Email:862164018@qq.com</li>
 							</ul><!--/ .contact-details-->
 							<footer class="footer">
-									<a class="button default" href="http://wpa.qq.com/msgrd?v=3&uin=<?php echo $cfg_qqcode; ?>&site=%E4%B8%80%E5%8F%B7%E8%AE%BE%E8%AE%A1&menu=yes">在线咨询</a>
+								<a class="button default"
+								   href="http://wpa.qq.com/msgrd?v=3&uin=<?php echo $cfg_qqcode; ?>&site=NJITGROUP.cn&menu=yes">在线咨询</a>
 								</footer><!-- .footer -->
 						</div><!--/ .widget-->
 						
